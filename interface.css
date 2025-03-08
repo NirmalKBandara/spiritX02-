@@ -9,13 +9,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Cinzel', serif;
+  font-family: "Roboto", sans-serif;
   color: var(--white);
 }
 
 body {
   background-color: var(--black);
   min-height: 100vh;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* Navbar Styles */
@@ -169,8 +170,8 @@ body {
 
 /* Footer Styles */
 .footer {
-  background-color: var(--green);
-  color: var(--black);
+  background-color:rgba(82, 18, 141, 0.1);
+  color: rgb(243, 237, 237);
 }
 
 .footer-content {
@@ -180,10 +181,11 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+  color: rgb(222, 228, 228);
 }
 
 .footer-section h3 {
-  color: var(--black);
+  color: rgb(204, 196, 196);
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 1rem;
@@ -198,7 +200,7 @@ body {
 }
 
 .footer-section ul li a {
-  color: var(--black);
+  color: rgb(71, 65, 82);
   text-decoration: none;
   transition: text-decoration 0.3s;
 }

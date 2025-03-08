@@ -7,4 +7,51 @@
 }
 body{
   background-color:rgba(1, 5, 29, 1);
+  color: white;
+}
+.players_first{
+  display:flex;
+  flex-direction: row;
+  width: 80dvw;
+  gap: 30px;
+  
+  justify-content: space-between;
+}
+
+
+.player{
+  background-color: beige;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+}
+.blue_first{
+  font-size: calc(10rem + 30px);
+  background-color: aqua;
+  max-width:8rem;
+  max-height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.player_second{
+  display:flex;
+  flex-direction: row;
+  flex: 1 ;
+  
+  justify-content: space-evenly;
+}
+
+.aaaaa{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70dvh;
+  width: 100dvw;
+  align-items: center;
 }

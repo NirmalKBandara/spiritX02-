@@ -31,7 +31,7 @@ body{
 .blue_first{
   font-size: calc(10rem + 30px);
   background-color: aqua;
-  max-width:8rem;
+  max-width:5rem;
   max-height: 8rem;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@ body{
   display:flex;
   flex-direction: row;
   flex: 1 ;
-  
+  gap: 20px;
   justify-content: space-evenly;
 }
 
@@ -51,7 +51,18 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 70dvh;
+  height: 55dvh;
   width: 100dvw;
   align-items: center;
+  gap: 30px;
+}
+
+.lower{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10px;
+  width: 100dvw;
+  align-items: center;
+  gap: 30px;
 }
